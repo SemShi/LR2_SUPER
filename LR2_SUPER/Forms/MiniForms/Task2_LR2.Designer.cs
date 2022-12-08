@@ -1,6 +1,6 @@
-﻿namespace LR2_SUPER.Forms
+﻿namespace LR2_SUPER.Forms.MiniForms
 {
-    partial class Task1_LR2
+    partial class Task2_LR2
     {
         /// <summary> 
         /// Required designer variable.
@@ -33,9 +33,13 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tbMsg = new System.Windows.Forms.TextBox();
-            this.tbGamma = new System.Windows.Forms.TextBox();
+            this.tbP = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.tbQ = new System.Windows.Forms.TextBox();
+            this.tbX = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tbResult = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -68,7 +72,6 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.Controls.Add(this.splitContainer3);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -92,7 +95,7 @@
             this.splitContainer3.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer3.Size = new System.Drawing.Size(620, 288);
             this.splitContainer3.SplitterDistance = 310;
-            this.splitContainer3.TabIndex = 1;
+            this.splitContainer3.TabIndex = 2;
             // 
             // groupBox3
             // 
@@ -110,35 +113,43 @@
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.tbMsg, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.tbGamma, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.tbP, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.label2, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.tbQ, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.tbX, 0, 7);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.label4, 0, 6);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 19);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 4;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(304, 114);
-            this.tableLayoutPanel2.TabIndex = 0;
+            this.tableLayoutPanel2.RowCount = 8;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(304, 210);
+            this.tableLayoutPanel2.TabIndex = 1;
             // 
             // tbMsg
             // 
             this.tbMsg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMsg.Location = new System.Drawing.Point(3, 31);
+            this.tbMsg.Location = new System.Drawing.Point(3, 29);
             this.tbMsg.Name = "tbMsg";
             this.tbMsg.Size = new System.Drawing.Size(298, 23);
             this.tbMsg.TabIndex = 0;
             // 
-            // tbGamma
+            // tbP
             // 
-            this.tbGamma.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbGamma.Location = new System.Drawing.Point(3, 87);
-            this.tbGamma.Name = "tbGamma";
-            this.tbGamma.Size = new System.Drawing.Size(298, 23);
-            this.tbGamma.TabIndex = 1;
+            this.tbP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbP.Location = new System.Drawing.Point(3, 81);
+            this.tbP.Name = "tbP";
+            this.tbP.Size = new System.Drawing.Size(298, 23);
+            this.tbP.TabIndex = 1;
             // 
             // label1
             // 
@@ -147,7 +158,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(298, 28);
+            this.label1.Size = new System.Drawing.Size(298, 26);
             this.label1.TabIndex = 2;
             this.label1.Text = "Сообщение";
             // 
@@ -156,11 +167,49 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(3, 56);
+            this.label2.Location = new System.Drawing.Point(3, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(298, 28);
+            this.label2.Size = new System.Drawing.Size(298, 26);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Гамма";
+            this.label2.Text = "Простое - p";
+            // 
+            // tbQ
+            // 
+            this.tbQ.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbQ.Location = new System.Drawing.Point(3, 133);
+            this.tbQ.Name = "tbQ";
+            this.tbQ.Size = new System.Drawing.Size(298, 23);
+            this.tbQ.TabIndex = 4;
+            // 
+            // tbX
+            // 
+            this.tbX.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbX.Location = new System.Drawing.Point(3, 185);
+            this.tbX.Name = "tbX";
+            this.tbX.Size = new System.Drawing.Size(298, 23);
+            this.tbX.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(3, 104);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(298, 26);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Простое - q";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(3, 156);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(298, 26);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "x_0";
             // 
             // groupBox2
             // 
@@ -189,7 +238,7 @@
             this.groupBox1.Location = new System.Drawing.Point(0, 288);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(620, 73);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Настройки";
             // 
@@ -288,16 +337,15 @@
             this.btReset.TabIndex = 1;
             this.btReset.Text = "Сброс";
             this.btReset.UseVisualStyleBackColor = true;
-            this.btReset.Click += new System.EventHandler(this.btReset_Click);
             // 
-            // Task1_LR2
+            // Task2_LR2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Name = "Task1_LR2";
+            this.Name = "Task2_LR2";
             this.Size = new System.Drawing.Size(620, 361);
-            this.Load += new System.EventHandler(this.Task1_LR2_Load);
+            this.Load += new System.EventHandler(this.Task2_LR2_Load);
             this.panel1.ResumeLayout(false);
             this.splitContainer3.Panel1.ResumeLayout(false);
             this.splitContainer3.Panel2.ResumeLayout(false);
@@ -332,16 +380,20 @@
         private RadioButton rbDecrypt;
         private RadioButton rbEncrypt;
         private SplitContainer splitContainer2;
+        private Button btGo;
+        private Button btReset;
         private SplitContainer splitContainer3;
         private GroupBox groupBox3;
         private GroupBox groupBox2;
         private TextBox tbResult;
-        private Button btGo;
-        private Button btReset;
         private TableLayoutPanel tableLayoutPanel2;
         private TextBox tbMsg;
-        private TextBox tbGamma;
+        private TextBox tbP;
         private Label label1;
         private Label label2;
+        private TextBox tbQ;
+        private TextBox tbX;
+        private Label label3;
+        private Label label4;
     }
 }
