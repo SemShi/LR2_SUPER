@@ -9,10 +9,6 @@ namespace LR2_SUPER.Forms.MiniForms
         public Task2_LR2()
         {
             InitializeComponent();
-            tbMsg.Text = "Сообщение";
-            tbP.Text = "179";
-            tbQ.Text = "199";
-            tbX.Text = "599";
         }
 
         private static int Find_Char(char ch, char[] alphabet) //Нахождение индекса символа в массиве
@@ -98,7 +94,7 @@ namespace LR2_SUPER.Forms.MiniForms
 
         private void btGo_Click(object sender, EventArgs e)
         {
-            if (IsTbEmpty(tbMsg.Text, tbP.Text, tbQ.Text, tbX.Text))
+            if (!IsTbEmpty(tbMsg.Text, tbP.Text, tbQ.Text, tbX.Text))
             {
                 MessageBox.Show("Заполните поля", "Ошибка!");
                 return;
@@ -127,6 +123,15 @@ namespace LR2_SUPER.Forms.MiniForms
             btGo.Text = ((RadioButton)sender).Text;
             if (rbDecrypt.Checked && !string.IsNullOrWhiteSpace(tbResult.Text))
                 tbMsg.Text = tbResult.Text;
+        }
+
+        private void btReset_Click(object sender, EventArgs e)
+        {
+            tbMsg.Clear();
+            tbP.Clear();
+            tbQ.Clear();
+            tbX.Clear();
+            tbResult.Clear();
         }
     }
 }

@@ -337,6 +337,7 @@
             this.btReset.TabIndex = 1;
             this.btReset.Text = "Сброс";
             this.btReset.UseVisualStyleBackColor = true;
+            this.btReset.Click += new System.EventHandler(this.btReset_Click);
             // 
             // Task2_LR2
             // 
