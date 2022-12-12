@@ -22,5 +22,22 @@ namespace LR2_SUPER.Forms.MiniForms
         public string G { get { return this.tbG.Text; } set { tbG.Text = value; } }
         public string Y { get { return this.tbY.Text; } set { tbY.Text = value; } }
 
+        public void onOffTextBoxes(bool isChecked)
+        {
+            if (isChecked)
+            {
+                tbG.Enabled = false;
+                tbP.Enabled = false;
+                tbY.Enabled = false;
+            }
+            else
+            {
+                tbG.Enabled = true;
+                tbP.Enabled = true;
+                tbY.Enabled = true;
+            }
+            
+        }
+
     }
 }

@@ -69,9 +69,9 @@
             // 
             this.groupBox1.Controls.Add(this.splitContainer1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Location = new System.Drawing.Point(0, 288);
+            this.groupBox1.Location = new System.Drawing.Point(0, 276);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(620, 73);
+            this.groupBox1.Size = new System.Drawing.Size(620, 85);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Настройки";
@@ -89,7 +89,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(614, 51);
+            this.splitContainer1.Size = new System.Drawing.Size(614, 63);
             this.splitContainer1.SplitterDistance = 204;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -103,7 +103,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(204, 51);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(204, 63);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -129,7 +129,7 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.btReset);
-            this.splitContainer2.Size = new System.Drawing.Size(406, 51);
+            this.splitContainer2.Size = new System.Drawing.Size(406, 63);
             this.splitContainer2.SplitterDistance = 203;
             this.splitContainer2.TabIndex = 0;
             // 
@@ -138,7 +138,7 @@
             this.btGo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btGo.Location = new System.Drawing.Point(0, 0);
             this.btGo.Name = "btGo";
-            this.btGo.Size = new System.Drawing.Size(203, 51);
+            this.btGo.Size = new System.Drawing.Size(203, 63);
             this.btGo.TabIndex = 0;
             this.btGo.Text = "Расшифровать";
             this.btGo.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@
             this.btReset.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btReset.Location = new System.Drawing.Point(0, 0);
             this.btReset.Name = "btReset";
-            this.btReset.Size = new System.Drawing.Size(199, 51);
+            this.btReset.Size = new System.Drawing.Size(199, 63);
             this.btReset.TabIndex = 1;
             this.btReset.Text = "Сброс";
             this.btReset.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             // splitContainer3.Panel2
             // 
             this.splitContainer3.Panel2.Controls.Add(this.groupBox2);
-            this.splitContainer3.Size = new System.Drawing.Size(620, 288);
+            this.splitContainer3.Size = new System.Drawing.Size(620, 276);
             this.splitContainer3.SplitterDistance = 310;
             this.splitContainer3.TabIndex = 4;
             // 
@@ -177,7 +177,7 @@
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(310, 288);
+            this.groupBox3.Size = new System.Drawing.Size(310, 276);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Исходные данные";
@@ -268,7 +268,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(306, 288);
+            this.groupBox2.Size = new System.Drawing.Size(306, 276);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Результат";
@@ -279,7 +279,7 @@
             this.tbResult.Location = new System.Drawing.Point(3, 19);
             this.tbResult.Multiline = true;
             this.tbResult.Name = "tbResult";
-            this.tbResult.Size = new System.Drawing.Size(300, 266);
+            this.tbResult.Size = new System.Drawing.Size(300, 254);
             this.tbResult.TabIndex = 0;
             // 
             // LR5_Decrypt
