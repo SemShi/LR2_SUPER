@@ -38,14 +38,14 @@
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.tbX = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tbP = new System.Windows.Forms.TextBox();
-            this.tbX = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.tbResult = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tbSecretMsg = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tbResult = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -205,16 +205,13 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(304, 176);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // label2
+            // tbX
             // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(3, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(298, 29);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Val P";
+            this.tbX.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbX.Location = new System.Drawing.Point(3, 148);
+            this.tbX.Name = "tbX";
+            this.tbX.Size = new System.Drawing.Size(298, 23);
+            this.tbX.TabIndex = 3;
             // 
             // label3
             // 
@@ -235,13 +232,35 @@
             this.tbP.Size = new System.Drawing.Size(298, 23);
             this.tbP.TabIndex = 2;
             // 
-            // tbX
+            // label2
             // 
-            this.tbX.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbX.Location = new System.Drawing.Point(3, 148);
-            this.tbX.Name = "tbX";
-            this.tbX.Size = new System.Drawing.Size(298, 23);
-            this.tbX.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(3, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(298, 29);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Val P";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(3, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(298, 29);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Зашифрованное сообщение";
+            // 
+            // tbSecretMsg
+            // 
+            this.tbSecretMsg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbSecretMsg.Location = new System.Drawing.Point(3, 32);
+            this.tbSecretMsg.Name = "tbSecretMsg";
+            this.tbSecretMsg.Size = new System.Drawing.Size(298, 23);
+            this.tbSecretMsg.TabIndex = 5;
             // 
             // groupBox2
             // 
@@ -262,25 +281,6 @@
             this.tbResult.Name = "tbResult";
             this.tbResult.Size = new System.Drawing.Size(300, 266);
             this.tbResult.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(3, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(298, 29);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Зашифрованное сообщение";
-            // 
-            // tbSecretMsg
-            // 
-            this.tbSecretMsg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbSecretMsg.Location = new System.Drawing.Point(3, 32);
-            this.tbSecretMsg.Name = "tbSecretMsg";
-            this.tbSecretMsg.Size = new System.Drawing.Size(298, 23);
-            this.tbSecretMsg.TabIndex = 5;
             // 
             // LR5_Decrypt
             // 
