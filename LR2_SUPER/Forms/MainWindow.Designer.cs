@@ -38,6 +38,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.lR5_Encrypt1 = new LR2_SUPER.Forms.MiniForms.LR5_Encrypt();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -46,6 +47,7 @@
             this.tabPage4.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl3.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -143,6 +145,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.lR5_Encrypt1);
             this.tabPage5.Location = new System.Drawing.Point(4, 24);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -150,6 +153,14 @@
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Шифрование";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // lR5_Encrypt1
+            // 
+            this.lR5_Encrypt1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lR5_Encrypt1.Location = new System.Drawing.Point(3, 3);
+            this.lR5_Encrypt1.Name = "lR5_Encrypt1";
+            this.lR5_Encrypt1.Size = new System.Drawing.Size(772, 382);
+            this.lR5_Encrypt1.TabIndex = 0;
             // 
             // tabPage6
             // 
@@ -176,6 +187,7 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -193,5 +205,6 @@
         private TabControl tabControl3;
         private TabPage tabPage5;
         private TabPage tabPage6;
+        private Forms.MiniForms.LR5_Encrypt lR5_Encrypt1;
     }
 }
