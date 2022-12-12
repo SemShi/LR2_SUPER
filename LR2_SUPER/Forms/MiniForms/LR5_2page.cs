@@ -19,5 +19,19 @@ namespace LR2_SUPER.Forms.MiniForms
 
         public string SessionKey { get { return this.tbSessionKey.Text; } set { tbSessionKey.Text = value; } }
         public string SecretKey { get { return this.tbSecretKey.Text; } set { tbSecretKey.Text = value; } }
+
+        public void onOffTextBoxes(bool isChecked)
+        {
+            if (isChecked)
+            {
+                tbSecretKey.Enabled = false;
+                tbSessionKey.Enabled = false;
+            }
+            else
+            {
+                tbSecretKey.Enabled = true;
+                tbSessionKey.Enabled = true;
+            }
+        }
     }
 }

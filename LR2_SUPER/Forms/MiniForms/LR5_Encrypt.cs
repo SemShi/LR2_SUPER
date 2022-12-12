@@ -49,10 +49,18 @@ namespace LR2_SUPER.Forms.MiniForms
 
         private void cbMode_CheckedChanged(object sender, EventArgs e)
         {
-            if(cbMode.Checked)
+            if (cbMode.Checked)
+            {
                 lR5_1page1.onOffTextBoxes(true);
+                lR5_2page1.onOffTextBoxes(true);
+            }
+
             else
+            {
                 lR5_1page1.onOffTextBoxes(false);
+                lR5_2page1.onOffTextBoxes(false);
+            }
+                
         }
 
         private void CheckEnteredData()

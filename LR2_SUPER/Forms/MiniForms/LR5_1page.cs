@@ -36,7 +36,6 @@ namespace LR2_SUPER.Forms.MiniForms
                 tbP.Enabled = true;
                 tbY.Enabled = true;
             }
-            
         }
 
     }
