@@ -34,13 +34,18 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.task1_lR21 = new LR2_SUPER.Forms.Task1_LR2();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.task2_lR21 = new LR2_SUPER.Forms.MiniForms.Task2_LR2();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabControl3 = new System.Windows.Forms.TabControl();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabControl3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -106,16 +111,6 @@
             this.tabPage4.Text = "Шифрование по модулю 2";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 72);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "ЛР5";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // task2_lR21
             // 
             this.task2_lR21.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -123,6 +118,48 @@
             this.task2_lR21.Name = "task2_lR21";
             this.task2_lR21.Size = new System.Drawing.Size(772, 382);
             this.task2_lR21.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.tabControl3);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(792, 422);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "ЛР5";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabControl3
+            // 
+            this.tabControl3.Controls.Add(this.tabPage5);
+            this.tabControl3.Controls.Add(this.tabPage6);
+            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl3.Location = new System.Drawing.Point(3, 3);
+            this.tabControl3.Name = "tabControl3";
+            this.tabControl3.SelectedIndex = 0;
+            this.tabControl3.Size = new System.Drawing.Size(786, 416);
+            this.tabControl3.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 24);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(778, 388);
+            this.tabPage5.TabIndex = 0;
+            this.tabPage5.Text = "Шифрование";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 24);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(778, 388);
+            this.tabPage6.TabIndex = 1;
+            this.tabPage6.Text = "Расшифрование";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // MainWindow
             // 
@@ -137,6 +174,8 @@
             this.tabControl2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabControl3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -151,5 +190,8 @@
         private TabPage tabPage4;
         private TabPage tabPage2;
         private Forms.MiniForms.Task2_LR2 task2_lR21;
+        private TabControl tabControl3;
+        private TabPage tabPage5;
+        private TabPage tabPage6;
     }
 }
