@@ -17,10 +17,10 @@ namespace LR2_SUPER.Forms.MiniForms
             InitializeComponent();
         }
 
-        public string Msg { get { return this.tbMsg.Text; } }
-        public string P { get { return this.tbP.Text; } }
-        public string G { get { return this.tbG.Text; } }
-        public string Y { get { return this.tbY.Text; } }
+        public string Msg { get { return this.tbMsg.Text; } set { tbMsg.Text = value; } }
+        public string P { get { return this.tbP.Text; } set { tbP.Text = value; } }
+        public string G { get { return this.tbG.Text; } set { tbG.Text = value; } }
+        public string Y { get { return this.tbY.Text; } set { tbY.Text = value; } }
 
     }
 }

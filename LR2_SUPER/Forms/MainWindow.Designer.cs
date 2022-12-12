@@ -40,6 +40,7 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.lR5_Encrypt1 = new LR2_SUPER.Forms.MiniForms.LR5_Encrypt();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.lR5_Decrypt1 = new LR2_SUPER.Forms.MiniForms.LR5_Decrypt();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -48,6 +49,7 @@
             this.tabPage2.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -164,6 +166,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.lR5_Decrypt1);
             this.tabPage6.Location = new System.Drawing.Point(4, 24);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
@@ -172,6 +175,14 @@
             this.tabPage6.Text = "Расшифрование";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // lR5_Decrypt1
+            // 
+            this.lR5_Decrypt1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lR5_Decrypt1.Location = new System.Drawing.Point(3, 3);
+            this.lR5_Decrypt1.Name = "lR5_Decrypt1";
+            this.lR5_Decrypt1.Size = new System.Drawing.Size(772, 382);
+            this.lR5_Decrypt1.TabIndex = 0;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -179,7 +190,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Name = "MainWindow";
-            this.Text = "LR2";
+            this.Text = "Лабораторные КМЗИ | Шишкин С.Н. ЭИСБ-34";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
@@ -188,6 +199,7 @@
             this.tabPage2.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
+            this.tabPage6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -206,5 +218,6 @@
         private TabPage tabPage5;
         private TabPage tabPage6;
         private Forms.MiniForms.LR5_Encrypt lR5_Encrypt1;
+        private Forms.MiniForms.LR5_Decrypt lR5_Decrypt1;
     }
 }

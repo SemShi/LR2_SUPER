@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace LR2_SUPER.Forms.MiniForms
 {
-    public partial class LR5_2page : UserControl
+    public partial class LR5_Decrypt : UserControl
     {
-        public LR5_2page()
+        public LR5_Decrypt()
         {
             InitializeComponent();
         }
 
-        public string SessionKey { get { return this.tbSessionKey.Text; } set { tbSessionKey.Text = value; } }
-        public string SecretKey { get { return this.tbSecretKey.Text; } set { tbSecretKey.Text = value; } }
+        private void btReset_Click(object sender, EventArgs e)
+        {
+            tbP.Clear();
+            tbX.Clear();
+            tbResult.Clear();
+            tbSecretMsg.Clear();
+        }
     }
 }

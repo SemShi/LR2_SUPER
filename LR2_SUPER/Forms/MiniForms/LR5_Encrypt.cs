@@ -32,5 +32,16 @@ namespace LR2_SUPER.Forms.MiniForms
             lR5_2page1.Visible = false;
             lR5_1page1.Visible = true;
         }
+
+        private void btReset_Click(object sender, EventArgs e)
+        {
+            tbResult.Clear();
+            lR5_1page1.Msg = "";
+            lR5_1page1.P = "";
+            lR5_1page1.G = "";
+            lR5_1page1.Y = "";
+            lR5_2page1.SessionKey = "";
+            lR5_2page1.SecretKey = "";
+        }
     }
 }
