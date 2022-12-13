@@ -142,6 +142,7 @@
             this.btGo.TabIndex = 0;
             this.btGo.Text = "Расшифровать";
             this.btGo.UseVisualStyleBackColor = true;
+            this.btGo.Click += new System.EventHandler(this.btGo_Click);
             // 
             // btReset
             // 

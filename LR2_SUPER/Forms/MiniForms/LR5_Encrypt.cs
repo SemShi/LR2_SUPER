@@ -54,44 +54,12 @@ namespace LR2_SUPER.Forms.MiniForms
                 lR5_1page1.onOffTextBoxes(true);
                 lR5_2page1.onOffTextBoxes(true);
             }
-
             else
             {
                 lR5_1page1.onOffTextBoxes(false);
                 lR5_2page1.onOffTextBoxes(false);
             }
                 
-        }
-
-        private void CheckEnteredData()
-        {
-            if (string.IsNullOrWhiteSpace(lR5_1page1.Msg))
-            {
-                MessageBox.Show("Отсутствует открытое сообщение.", "Ошибка!");
-                return;
-            }
-
-            if (!cbMode.Checked)
-            {
-                if (string.IsNullOrWhiteSpace(lR5_1page1.P) || string.IsNullOrWhiteSpace(lR5_1page1.G) || string.IsNullOrWhiteSpace(lR5_1page1.Y))
-                {
-                    MessageBox.Show("Отсутствует одно из начений {P,G,Y}.", "Ошибка!");
-                    return;
-                }
-
-                if (string.IsNullOrWhiteSpace(lR5_2page1.SessionKey))
-                {
-                    MessageBox.Show("Отсутствует сессионный ключ.", "Ошибка!");
-                    return;
-                }
-
-                if (string.IsNullOrWhiteSpace(lR5_2page1.SecretKey))
-                {
-                    MessageBox.Show("Отсутствует закрытый ключ ключ.", "Ошибка!");
-                    return;
-                }
-            }
-            
         }
 
         private void btGo_Click(object sender, EventArgs e)
@@ -125,7 +93,7 @@ namespace LR2_SUPER.Forms.MiniForms
             if (cbMode.Checked)
             {
                 byte[] ZnchChar = new byte[lR5_1page1.Msg.Length];
-                int simpleNum = LrHelper.GetSimple();
+                 int simpleNum = LrHelper.GetSimple();
                 int g = LrHelper.GetPRoot(simpleNum);
                 var rnd = new Random();
                 int x = rnd.Next(2, simpleNum - 1);

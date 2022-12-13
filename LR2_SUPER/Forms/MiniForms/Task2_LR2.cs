@@ -11,15 +11,6 @@ namespace LR2_SUPER.Forms.MiniForms
             InitializeComponent();
         }
 
-        private static int Find_Char(char ch, char[] alphabet) //Нахождение индекса символа в массиве
-        {
-            for (var i = 0; i < alphabet.Length; i++)
-            {
-                if (ch == alphabet[i]) return i;
-            }
-            return -1;
-        }
-
         private static string XOR(string x, string y) //Двоичное исключающее ИЛИ
         {
             string result = String.Empty;
